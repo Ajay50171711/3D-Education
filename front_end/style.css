@@ -1,0 +1,84 @@
+
+
+.heading {
+display: block;
+background-color: #f0dbcb;
+margin-top: 0.1%;
+margin-left: 25%;
+margin-right: 25%;
+border-left: 6px solid red;
+text-align: center; 
+font-size: 48px;
+}
+.navbar {
+  background-color: #343a40;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+
+body {
+background-image: url('taylor-flowe-4nKOEAQaTgA-unsplash.jpg.');
+background-size: cover; /* Cover the entire viewport */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-attachment: fixed;
+}
+.container {
+display: flex;
+justify-content: space-between; /* Space the content evenly between the left and right edges */
+
+}
+.left-content {
+flex: 1; /* Take up available space */
+text-align: center; /* Align content to the centre */
+background-color:rgba(5, 111, 249, 0.7);
+
+
+}
+.centre-content {
+flex: 1; /* Take up available space */
+text-align: center; /* Align content to the centre */
+background-color:rgba(50, 137, 252, 0.7);
+
+}
+
+.right-content {
+flex: 1; /* Take up available space */
+text-align: center; /* Align content to the centre */ 
+background-color:rgba(83, 151, 240, 0.7);
+
+
+}
+
+.h2element
+{
+font-size: 48px;
+}
+.paragraph
+{
+font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .left-content,
+    .centre-content,
+    .right-content {
+      flex-basis: 100%;
+    }
+  }
